@@ -14,3 +14,8 @@ wrangler generate testproject
 and operates on the current directory (-v option in docker).
 
 Thus you can add a shell alias.
+
+
+### How to use wrangler?
+
+[Cloudflare knows about it.](https://developers.cloudflare.com/workers/quickstart/)
