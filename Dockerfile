@@ -9,7 +9,7 @@ RUN wrangler --help
 
 COPY entrypoint.sh /usr/bin/
 RUN chmod 755 /usr/bin/entrypoint.sh
-RUN ls -l /usr/bin/entrypoint.sh
+
 WORKDIR /app
 
 ENTRYPOINT [ "/usr/bin/entrypoint.sh" ]
